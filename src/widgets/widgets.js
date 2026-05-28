@@ -56,6 +56,7 @@ import immich from "./immich/widget";
 import jackett from "./jackett/widget";
 import jdownloader from "./jdownloader/widget";
 import jellyfin from "./jellyfin/widget";
+import jeedom from "./jeedom/widget";
 import jellystat from "./jellystat/widget";
 import karakeep from "./karakeep/widget";
 import kavita from "./kavita/widget";
@@ -214,6 +215,7 @@ const widgets = {
   jackett,
   jdownloader,
   jellyfin,
+  jeedom,
   jellyseerr: seerr,
   jellystat,
   kavita,
