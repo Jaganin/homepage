@@ -65,6 +65,7 @@ const components = {
   jackett: dynamic(() => import("./jackett/component")),
   jdownloader: dynamic(() => import("./jdownloader/component")),
   jellyfin: dynamic(() => import("./jellyfin/component")),
+  jeedom: dynamic(() => import("./jeedom/component")),
   jellyseerr: dynamic(() => import("./seerr/component")),
   jellystat: dynamic(() => import("./jellystat/component")),
   kavita: dynamic(() => import("./kavita/component")),
