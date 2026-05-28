@@ -5,7 +5,7 @@ const widget = {
   proxyHandler: jeedomProxyHandler,
   mappings: {
     status: {
-      method: "POST",
+      endpoint: "status",
     },
   },
 };
