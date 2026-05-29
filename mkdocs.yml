@@ -90,6 +90,7 @@ nav:
           - widgets/services/immich.md
           - widgets/services/jackett.md
           - widgets/services/jdownloader.md
+          - widgets/services/jeedom.md
           - widgets/services/jellyfin.md
           - widgets/services/jellystat.md
           - widgets/services/kavita.md
