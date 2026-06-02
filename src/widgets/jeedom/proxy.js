@@ -8,8 +8,8 @@ function parseJeedomJSON(buffer) {
   try {
     let str = Buffer.isBuffer(buffer) ? buffer.toString() : buffer;
     // Strip icon HTML strings that may contain control characters
-    str = str.replace(/"icon":"[^"]*"/g, '"icon":""');
-    str = str.replace(/"iconnul":"[^"]*"/g, '"iconnul":""');
+    str = str.replace(/"icon":"(?:[^"\\]|\\.)*"/g, '"icon":""');
+    str = str.replace(/"iconnul":"(?:[^"\\]|\\.)*"/g, '"iconnul":""');
     return JSON.parse(str);
   } catch {
     return null;
